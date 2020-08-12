@@ -43,12 +43,12 @@ namespace VariablesCS
             double difference = (secondOperand - firstOperand);
             double product = (firstOperand * secondOperand);
             double quotient = (firstOperand / secondOperand);
+            double remainder = (firstOperand % secondOperand);
             Console.WriteLine($"Thanks, {userName}. Fun Facts! If you have {firstOperand} bodies and add {secondOperand} bodies to the"
             + $" meatlocker, you get {sum} bodies! If you have {secondOperand} bodies in your meatlocker, and you eat {firstOperand} bodies"
             + $", you are left with {difference} bodies. If you have {firstOperand} bodies, and you cut each one up into {secondOperand}"
             + $" pieces, you have {product} pieces of body parts! Finally, if you have {firstOperand} bodies, and stash them into "
-            + $"{secondOperand} meatlockers, each locker will have {quotient} bodies in them.");
-
+            + $"{secondOperand} meatlockers, each locker will have {quotient} bodies in them with {remainder} left over.");
 
 
         }
